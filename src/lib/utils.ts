@@ -1,0 +1,1 @@
+export const currency=(value:number)=>new Intl.NumberFormat("pt-BR",{style:"currency",currency:"BRL"}).format(value);export const cn=(...v:Array<string|false|null|undefined>)=>v.filter(Boolean).join(" ");
