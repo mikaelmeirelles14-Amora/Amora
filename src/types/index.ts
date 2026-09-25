@@ -1,0 +1,1 @@
+export type OrderStatus="Novo"|"Confirmado"|"Em produção"|"Pronto"|"Saiu para entrega"|"Entregue"|"Cancelado";export type Role="Admin"|"Manager"|"Production"|"Sales"|"Finance";export interface Product{id:string;name:string;category:string;price:number;cost:number;stock:number;status:"Ativo"|"Inativo"}
