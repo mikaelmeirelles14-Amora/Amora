@@ -1,0 +1,1 @@
+export default {content:["./index.html","./src/**/*.{ts,tsx}"],theme:{extend:{colors:{amora:{bg:"#F8F9FA",card:"#FFFFFF",text:"#171717",muted:"#6B7280",border:"#E5E7EB",primary:"#1F2937",success:"#16A34A",alert:"#D97706",error:"#DC2626"}}},borderRadius:{xl:"0.9rem","2xl":"1.15rem"}}};
