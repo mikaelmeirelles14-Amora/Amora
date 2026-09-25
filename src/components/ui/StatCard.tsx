@@ -1,0 +1,1 @@
+import Card from "./Card";export default function StatCard({label,value,change}:{label:string;value:string;change?:string}){return <Card><p className="text-sm text-amora-muted">{label}</p><div className="mt-2 text-2xl font-semibold">{value}</div>{change&&<p className="mt-1 text-xs text-amora-success">{change}</p>}</Card>}
